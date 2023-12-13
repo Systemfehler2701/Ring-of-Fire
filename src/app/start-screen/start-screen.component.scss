@@ -1,0 +1,47 @@
+.start-screen {
+    width: 100vw !important;
+    height: 100vh !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    background-image: url('../../assets/backgrounds/card-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.start-screeninfo {
+    width: 40vw !important;
+    height: 100vh !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-family: 'Marcellus', serif !important;
+        color: black!important;
+        font-size: 80px!important;
+        text-align: center;
+        p {
+            margin: 100px 0 !important;
+        }
+    }
+    div {
+        width: 250px !important;
+        height: 100px!important;
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        font-size: 40px !important;
+        background-color: black!important;
+        border: solid 3px silver!important;
+        color: silver!important;
+        position: relative!important;
+        cursor: pointer!important;
+        p {
+            margin: 0;
+        }
+        &:hover {
+            filter: brightness(1.7)!important;
+        }
+    }
+}
